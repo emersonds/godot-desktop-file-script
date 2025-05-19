@@ -4,7 +4,7 @@ This is a helper script that installs the given version of Godot from the offici
 Linux: Ubuntu or Debian. Arch support hopefully coming soon.
 # Installation
 1. `git clone` this repository (this is highly recommended to ensure the icon is created successfully).
-2. Run the script.
+2. Run the script using `bash installer-script.sh`.
 3. Input the desired version of Godot (4.3-stable, 4.4-stable, 4.4.1-stable, etc.).
 4. Verify the installation by checking your Applications Menu (may require reboot).
 # Updating Or Changing Version
