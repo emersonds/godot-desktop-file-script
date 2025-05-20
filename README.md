@@ -5,7 +5,7 @@ Linux: Ubuntu or Debian. Arch has not yet been tested.
 # Installation
 1. `git clone` this repository (this is highly recommended to ensure the icon is created successfully).
 2. Run the script using `bash installer-script.sh`.
-3. Input the desired stable version of Godot (4.3-stable, 4.4-stable, 4.4.1-stable, etc.).
+3. Input the desired stable version of Godot (4.3, 4.4, 4.4.1, etc.).
 4. Verify the installation by checking your Applications Menu (may require reboot).
 # Updating Or Changing Version
 Because Godot keeps an archive of all of their releases, simply run the installation script again.
