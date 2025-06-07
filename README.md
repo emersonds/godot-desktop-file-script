@@ -6,7 +6,7 @@ Tested on Linux Distributions:
 - Ubuntu/Debian (Linux Mint)
 # Installation
 1. `git clone` this repository (this is highly recommended to ensure the icon is created successfully).
-2. Run the script using `bash installer-script.sh`.
+2. Enter the script directory and run the script using `bash installer-script.sh`.
 3. Input the desired stable version of Godot (4.3, 4.4, 4.4.1, etc.).
 4. Verify the installation by checking your Applications Menu (may require reboot).
 # Updating Or Changing Version
