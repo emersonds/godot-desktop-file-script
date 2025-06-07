@@ -4,6 +4,27 @@
 
 # Author: Dylan Emerson
 
+: '
+# Detect user distro
+usr_os="abcd"
+
+if [ -f /usr/lib/os-release ]; then
+    . /usr/lib/os-release
+
+    case $ID in
+        ubuntu) usr_is="ubuntu"
+            ;;
+        debian) usr_os="debian"
+            ;;
+        arch) usr_os="arch"
+            ;;
+        *) echo "Unknown distro"
+        ;;
+    esac
+fi
+echo "Detected $usr_os based distro..."
+'
+
 
 # Default directories
 script_dir=$( dirname "$(realpath $0)" )
@@ -52,8 +73,12 @@ fi
 
 echo "Godot $version-stable successfully installed!"
 
-# Create Desktop File
+# Make application entry directories if necessary
+echo "Creating application directories (if they don't exist)..."
+mkdir -p $desktop_file_dir
+mkdir -p $icons_dir
 
+# Create Desktop File
 echo "Creating desktop file..."
 
 echo "[Desktop Entry]
