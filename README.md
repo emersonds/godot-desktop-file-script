@@ -1,7 +1,9 @@
 # Script to Install Godot and Make Desktop File
 This is a helper script that installs the given version of Godot from the official archive and creates a desktop file for it in `~/.local/share/applications/`.
 # Requirements
-Linux: Ubuntu or Debian. Arch has not yet been tested.
+Tested on Linux Distributions:
+- Arch Linux (CachyOS)
+- Ubuntu/Debian (Linux Mint)
 # Installation
 1. `git clone` this repository (this is highly recommended to ensure the icon is created successfully).
 2. Run the script using `bash installer-script.sh`.
